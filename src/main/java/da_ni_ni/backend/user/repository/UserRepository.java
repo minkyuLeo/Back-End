@@ -14,3 +14,4 @@ public interface UserRepository extends JpaRepository<User, Long> {
     // 그룹 ID로 해당 그룹에 속한 모든 사용자 조회
     List<User> findAllByGroupId(Long groupId);
 }
+
